@@ -121,12 +121,11 @@ Relasi antar tabel dibangun menggunakan Eloquent Relationship Laravel.
 
 ## 📷 Dokumentasi Tampilan
 
+Folder screenshot aplikasi:
+
 Screenshot aplikasi dapat dilihat pada folder:
 
-[📁 Folder Screenshots](./screenshots)
-```
-
----
+📁 [screenshots](./screenshots)
 
 ## 🚀 Cara Menjalankan Project
 
@@ -208,3 +207,4 @@ Project ini dibuat untuk memenuhi Tugas Besar Mata Kuliah Web II dengan menerapk
 
 ---
 
+⭐ Terima kasih telah mengunjungi repository ini.
