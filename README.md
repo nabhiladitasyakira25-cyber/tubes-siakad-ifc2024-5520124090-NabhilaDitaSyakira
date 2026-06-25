@@ -122,9 +122,7 @@ Relasi antar tabel dibangun menggunakan Eloquent Relationship Laravel.
 
 ## Dokumentasi
 
-Screenshot aplikasi dapat dilihat pada folder:
-
-[📁 Folder Screenshots](./screenshots)
+Folder Screenshot aplikasi dapat dilihat pada folder (./screenshots).
 ```
 
 ## 🚀 Cara Menjalankan Project
