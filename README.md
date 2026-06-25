@@ -1,1 +1,1 @@
-# tubes-siakad-ifc2024-5520124090-NabhilaDitaSyakira
+# SIAKAD - Sistem Informasi Akademik
