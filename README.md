@@ -120,18 +120,11 @@ Relasi antar tabel dibangun menggunakan Eloquent Relationship Laravel.
 
 ## 📷 Dokumentasi Tampilan
 
-Folder screenshot aplikasi:
+## Dokumentasi
 
-```text
-screenshots/
-├── login.png
-├── dashboard-admin.png
-├── dashboard-mahasiswa.png
-├── dosen.png
-├── mahasiswa.png
-├── matakuliah.png
-├── jadwal.png
-└── krs.png
+Screenshot aplikasi dapat dilihat pada folder:
+
+[📁 Folder Screenshots](./screenshots)
 ```
 
 ## 🚀 Cara Menjalankan Project
