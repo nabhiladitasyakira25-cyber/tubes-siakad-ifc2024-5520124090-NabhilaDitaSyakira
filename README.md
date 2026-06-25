@@ -117,15 +117,16 @@ Aplikasi menggunakan beberapa tabel utama:
 
 Relasi antar tabel dibangun menggunakan Eloquent Relationship Laravel.
 
+---
 
 ## 📷 Dokumentasi Tampilan
 
-## Dokumentasi
-
 Screenshot aplikasi dapat dilihat pada folder:
 
-📁 [screenshots](./screenshots)
+[📁 Folder Screenshots](./screenshots)
 ```
+
+---
 
 ## 🚀 Cara Menjalankan Project
 
@@ -181,6 +182,8 @@ storage/
 tests/
 ```
 
+---
+
 ## 👩‍💻 Developer
 
 **Nama :** Nabhila Dita Syakira
@@ -203,4 +206,5 @@ Project ini dibuat untuk memenuhi Tugas Besar Mata Kuliah Web II dengan menerapk
 * Middleware
 * MVC Architecture
 
+---
 
