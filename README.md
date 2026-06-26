@@ -30,7 +30,6 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 ## 👨‍💼 Hak Akses Pengguna
 
 ### Admin
-
 * Mengelola data dosen
 * Mengelola data mahasiswa
 * Mengelola data mata kuliah
@@ -78,7 +77,6 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 | `Dashboard` | Menampilkan informasi singkat mengenai aktivitas akademik mahasiswa setelah berhasil login. |
 | `Jadwal Perkuliahan` | Menampilkan jadwal kuliah yang dapat diikuti oleh mahasiswa sesuai data yang tersedia. |
 | `KRS Saya` | Digunakan untuk mengambil mata kuliah, melihat daftar mata kuliah yang telah dipilih, serta membatalkan pengambilan mata kuliah apabila diperlukan. |
-| `Profil` *(Jika Ada)* | Menampilkan informasi pribadi mahasiswa yang sedang menggunakan aplikasi. |
 
 ## ✨ Fitur Utama
 
@@ -207,22 +205,6 @@ php artisan migrate
 
 ```bash
 php artisan serve
-```
-
----
-
-## 📂 Struktur Project
-
-```text
-app/
-bootstrap/
-config/
-database/
-public/
-resources/
-routes/
-storage/
-tests/
 ```
 
 ---
