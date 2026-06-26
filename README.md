@@ -110,7 +110,7 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 
 Seluruh relasi tersebut diimplementasikan menggunakan **Eloquent ORM** dan **Eloquent Relationship** pada framework Laravel.
 ```
-
+```
 ## 📷 Dokumentasi Tampilan
 
 Folder screenshot aplikasi:
