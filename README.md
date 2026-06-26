@@ -166,7 +166,7 @@ php artisan serve
 
 **Nama :** Nabhila Dita Syakira
 **NPM :** 5520124090
-**Mata Kuliah :** Web II
+**Mata Kuliah :** Pemrograman Web II
 **Program Studi :** Teknik Informatika
 
 ---
