@@ -137,15 +137,20 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 
 ## 🛠️ Teknologi yang Digunakan
 
-| Teknologi  | Keterangan         |
-| ---------- | ------------------ |
-| Laravel    | Framework Backend  |
-| PHP        | Bahasa Pemrograman |
-| MySQL      | Database           |
-| Bootstrap  | User Interface     |
-| HTML/CSS   | Frontend           |
-| JavaScript | Interaktivitas     |
-
+```
+| Teknologi | Keterangan |
+|-----------|------------|
+| Laravel 12 | Framework Backend |
+| PHP 8.2 | Bahasa Pemrograman |
+| MySQL | Database |
+| Laravel Breeze | Autentikasi |
+| Blade Template Engine | Template View |
+| Tailwind CSS | Framework CSS |
+| JavaScript | Interaktivitas |
+| Eloquent ORM | Akses Database |
+| Eloquent Relationship | Relasi Data |
+| Middleware | Hak Akses |
+| Laravel DomPDF | Export PDF |
 ---
 
 ## 🗄️ Struktur Database
