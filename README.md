@@ -10,7 +10,7 @@
 ## 🌐 Link Hosting
 
 > **Akses aplikasi melalui link berikut:**  
-> **[https://](https://tubes-siakad-ifc2024-nabhila.gt.tc/)**
+> 🔗 **[SIAKAD - Sistem Informasi Akademik](https://tubes-siakad-ifc2024-nabhila.gt.tc/)**
 ## 🔑 Akun Login
 ### 👨‍💼 Admin
 - **Email / Username:** `admin@siakad.com`
