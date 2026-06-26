@@ -35,6 +35,7 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 * Mengelola data mata kuliah
 * Mengelola data jadwal perkuliahan
 * Melihat data KRS mahasiswa
+* Mencetak data KRS dalam format PDF
 * Mengakses seluruh fitur sistem
 
 ### Mahasiswa
@@ -44,6 +45,7 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 * Mengambil mata kuliah (KRS)
 * Menghapus mata kuliah yang telah diambil
 * Melihat daftar KRS
+* Mencetak data KRS dalam format PDF
 
 ---
 # 📁 Penjelasan Fungsi Halaman
