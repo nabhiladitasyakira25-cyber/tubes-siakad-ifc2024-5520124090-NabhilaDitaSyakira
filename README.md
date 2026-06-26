@@ -109,8 +109,7 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 | Jadwal → KRS | Satu jadwal dapat dipilih oleh banyak mahasiswa melalui KRS. |
 
 Seluruh relasi tersebut diimplementasikan menggunakan **Eloquent ORM** dan **Eloquent Relationship** pada framework Laravel.
-```
-```
+
 ## 📷 Dokumentasi Tampilan
 
 Folder screenshot aplikasi:
