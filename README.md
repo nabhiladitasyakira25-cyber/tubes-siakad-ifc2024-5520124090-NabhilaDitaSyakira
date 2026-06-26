@@ -76,62 +76,7 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 |----------|---------|
 | `Dashboard` | Menampilkan informasi singkat mengenai aktivitas akademik mahasiswa setelah berhasil login. |
 | `Jadwal Perkuliahan` | Menampilkan jadwal kuliah yang dapat diikuti oleh mahasiswa sesuai data yang tersedia. |
-| `KRS Saya` | Digunakan untuk mengambil mata kuliah, melihat daftar mata kuliah yang telah dipilih, serta membatalkan pengambilan mata kuliah apabila diperlukan. |
-
----
-
-## ✨ Fitur Utama
-
-### 🔐 Authentication & Authorization
-
-* Login
-* Logout
-* Role Admin
-* Role Mahasiswa
-* Middleware Role
-
-### 👨‍🏫 Manajemen Dosen
-
-* Tambah Data Dosen
-* Edit Data Dosen
-* Hapus Data Dosen
-* Lihat Data Dosen
-
-### 👨‍🎓 Manajemen Mahasiswa
-
-* Tambah Data Mahasiswa
-* Edit Data Mahasiswa
-* Hapus Data Mahasiswa
-* Lihat Data Mahasiswa
-
-### 📚 Manajemen Mata Kuliah
-
-* Tambah Mata Kuliah
-* Edit Mata Kuliah
-* Hapus Mata Kuliah
-* Lihat Daftar Mata Kuliah
-
-### 🗓️ Manajemen Jadwal
-
-* Tambah Jadwal
-* Edit Jadwal
-* Hapus Jadwal
-* Penentuan Dosen Pengajar
-* Penentuan Hari dan Jam Kuliah
-* Penentuan Kelas
-
-### 📝 Kartu Rencana Studi (KRS)
-
-* Ambil Mata Kuliah
-* Hapus Mata Kuliah
-* Lihat Daftar KRS
-
-### 📊 Dashboard
-
-* Statistik Data Mahasiswa
-* Statistik Data Dosen
-* Statistik Mata Kuliah
-* Statistik Jadwal Perkuliahan
+| `KRS` | Digunakan untuk mengambil mata kuliah, melihat daftar mata kuliah yang telah dipilih, serta membatalkan pengambilan mata kuliah apabila diperlukan. |
 
 ---
 
@@ -152,20 +97,19 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 | Laravel DomPDF | Export PDF |
 ---
 
-## 🗄️ Struktur Database
 
-Aplikasi menggunakan beberapa tabel utama:
+## 🔗 Relasi Antar Tabel (Eloquent Relationship)
 
-* users
-* dosens
-* mahasiswas
-* mata_kuliahs
-* jadwals
-* krs
+| Relasi | Keterangan |
+|---------|------------|
+| User → Mahasiswa | Satu user memiliki satu data mahasiswa. |
+| Dosen → Jadwal | Satu dosen dapat mengajar banyak jadwal. |
+| Mata Kuliah → Jadwal | Satu mata kuliah dapat digunakan pada banyak jadwal. |
+| Mahasiswa → KRS | Satu mahasiswa dapat memiliki banyak data KRS. |
+| Jadwal → KRS | Satu jadwal dapat dipilih oleh banyak mahasiswa melalui KRS. |
 
-Relasi antar tabel dibangun menggunakan Eloquent Relationship Laravel.
-
----
+Seluruh relasi tersebut diimplementasikan menggunakan **Eloquent ORM** dan **Eloquent Relationship** pada framework Laravel.
+```
 
 ## 📷 Dokumentasi Tampilan
 
