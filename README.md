@@ -78,6 +78,8 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 | `Jadwal Perkuliahan` | Menampilkan jadwal kuliah yang dapat diikuti oleh mahasiswa sesuai data yang tersedia. |
 | `KRS Saya` | Digunakan untuk mengambil mata kuliah, melihat daftar mata kuliah yang telah dipilih, serta membatalkan pengambilan mata kuliah apabila diperlukan. |
 
+---
+
 ## ✨ Fitur Utama
 
 ### 🔐 Authentication & Authorization
@@ -169,6 +171,8 @@ Screenshot aplikasi dapat dilihat pada folder:
 
 📁 [screenshots](./screenshots)
 
+---
+
 ## 🚀 Cara Menjalankan Project
 
 ### Clone Repository
@@ -181,6 +185,7 @@ git clone https://github.com/username/repository.git
 
 ```bash
 composer install
+npm install && npm run dev
 ```
 
 ### Konfigurasi Environment
@@ -195,10 +200,11 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-### Migrasi Database
+### Migrasi Database & Seeder
 
 ```bash
 php artisan migrate
+php artisan db:seed
 ```
 
 ### Menjalankan Server
