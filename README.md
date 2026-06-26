@@ -137,7 +137,6 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 
 ## 🛠️ Teknologi yang Digunakan
 
-```
 | Teknologi | Keterangan |
 |-----------|------------|
 | Laravel 12 | Framework Backend |
