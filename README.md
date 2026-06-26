@@ -7,6 +7,25 @@
   <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
 </p>
 
+## 🌐 Link Hosting
+
+> **Akses aplikasi melalui link berikut:**  
+> **https://**
+
+---
+
+## 🔑 Akun Login
+
+### 👨‍💼 Admin
+
+- **Email / Username:** `admin@siakad.com`
+- **Password:** `password123`
+
+### 👨‍🎓 Mahasiswa
+
+- **Email / Username:** `nabhila@mahasiswa.com`
+- **Password:** `password123`
+
 ## 📖 Tentang Aplikasi
 
 SIAKAD (Sistem Informasi Akademik) merupakan aplikasi berbasis web yang dibangun menggunakan Framework Laravel untuk membantu pengelolaan kegiatan akademik pada perguruan tinggi.
@@ -206,5 +225,3 @@ Project ini dibuat untuk memenuhi Tugas Besar Mata Kuliah Web II dengan menerapk
 * MVC Architecture
 
 ---
-
-⭐ Terima kasih telah mengunjungi repository ini.
