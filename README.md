@@ -11,18 +11,11 @@
 
 > **Akses aplikasi melalui link berikut:**  
 > **https://**
-
----
-
 ## 🔑 Akun Login
-
 ### 👨‍💼 Admin
-
 - **Email / Username:** `admin@siakad.com`
 - **Password:** `password123`
-
 ### 👨‍🎓 Mahasiswa
-
 - **Email / Username:** `nabhila@mahasiswa.com`
 - **Password:** `password123`
 
@@ -54,6 +47,38 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 * Melihat daftar KRS
 
 ---
+# 📁 Penjelasan Fungsi Halaman
+
+## Halaman Autentikasi
+
+| Halaman | Fungsi |
+|----------|---------|
+| `Login` | Digunakan sebagai halaman masuk ke dalam sistem menggunakan email dan password sesuai hak akses pengguna. |
+| `Logout` | Mengeluarkan pengguna dari sistem dan mengakhiri sesi login dengan aman. |
+
+---
+
+## Halaman Admin
+
+| Halaman | Fungsi |
+|----------|---------|
+| `Dashboard` | Menampilkan ringkasan informasi sistem seperti jumlah mahasiswa, dosen, mata kuliah, jadwal, dan data KRS. |
+| `Data Dosen` | Digunakan untuk melihat, menambahkan, mengubah, serta menghapus data dosen yang terdaftar pada sistem. |
+| `Data Mahasiswa` | Mengelola seluruh informasi mahasiswa, termasuk data akun login dan dosen wali. |
+| `Data Mata Kuliah` | Mengelola daftar mata kuliah beserta informasi kode mata kuliah, jumlah SKS, dan nama mata kuliah. |
+| `Data Jadwal` | Mengatur jadwal perkuliahan yang meliputi mata kuliah, dosen pengampu, hari, jam, ruang, dan kelas. |
+| `Data KRS` | Menampilkan seluruh data Kartu Rencana Studi mahasiswa sebagai bahan pemantauan oleh admin. |
+
+---
+
+## Halaman Mahasiswa
+
+| Halaman | Fungsi |
+|----------|---------|
+| `Dashboard` | Menampilkan informasi singkat mengenai aktivitas akademik mahasiswa setelah berhasil login. |
+| `Jadwal Perkuliahan` | Menampilkan jadwal kuliah yang dapat diikuti oleh mahasiswa sesuai data yang tersedia. |
+| `KRS Saya` | Digunakan untuk mengambil mata kuliah, melihat daftar mata kuliah yang telah dipilih, serta membatalkan pengambilan mata kuliah apabila diperlukan. |
+| `Profil` *(Jika Ada)* | Menampilkan informasi pribadi mahasiswa yang sedang menggunakan aplikasi. |
 
 ## ✨ Fitur Utama
 
