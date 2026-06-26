@@ -49,7 +49,7 @@
                 <div class="text-right">
                     <span class="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-700 text-xs font-black rounded-xl uppercase tracking-widest border border-blue-200">
                         <span class="w-2 h-2 rounded-full bg-blue-400"></span>
-                        {{ Auth::user()->role }} 
+                        {{ Auth::user()->role === 'admin' ? 'Administrator SIAKAD' : 'Mahasiswa' }}
         </span>
     </div>
             </div>

@@ -56,6 +56,11 @@
                         <input type="text" name="search" value="{{ request('search') }}" placeholder="Cari jadwal..." class="w-full pl-4 pr-4 py-2 border border-stone-300 rounded-lg text-sm bg-stone-50 focus:bg-white focus:ring-slate-500 focus:border-slate-500 transition text-stone-800">
                     </div>
                     <button type="submit" class="px-4 py-2 bg-slate-700 hover:bg-slate-800 text-white font-semibold text-sm rounded-lg shadow-sm transition duration-150">Cari</button>
+                    @if(request()->filled('search'))
+                        <a href="{{ route('jadwal.index') }}" class="px-4 py-2 bg-stone-200 hover:bg-stone-300 text-stone-700 font-semibold text-sm rounded-lg shadow-sm transition duration-150 flex items-center">
+                            Reset
+                        </a>
+                    @endif
                 </form>
             </div>
 

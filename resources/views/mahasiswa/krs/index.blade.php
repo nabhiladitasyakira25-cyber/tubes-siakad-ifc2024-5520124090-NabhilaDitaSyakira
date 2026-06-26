@@ -57,7 +57,11 @@
         
                 <div class="flex gap-2">
                     <button type="submit" class="px-6 py-2 bg-slate-800 text-white text-sm font-semibold rounded-lg hover:bg-slate-700 transition">Cari</button>
-                    <a href="{{ route('krs.index') }}" class="px-4 py-2 bg-stone-200 text-stone-700 text-sm font-semibold rounded-lg hover:bg-stone-300 transition text-center">Reset</a>
+                    @if(request()->filled('search'))
+                        <a href="{{ route('krs.index') }}" class="px-4 py-2 bg-stone-200 hover:bg-stone-300 text-stone-700 font-semibold text-sm rounded-lg shadow-sm transition duration-150 flex items-center">
+                            Reset
+                        </a>
+                    @endif
                 </div>
             </form>
         </div>
