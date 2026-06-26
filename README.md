@@ -178,7 +178,7 @@ Screenshot aplikasi dapat dilihat pada folder:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/username/repository.git
+git clone https://github.com/nabhiladitasyakira25-cyber/tubes-siakad-ifc2024-5520124090-NabhilaDitaSyakira.git
 ```
 
 ### Install Dependency
