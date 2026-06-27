@@ -100,7 +100,7 @@ Aplikasi ini memungkinkan administrator untuk mengelola data dosen, mahasiswa, m
 ---
 
 
-## 🔗 Relasi Antar Tabel (Eloquent Relationship)
+## Relasi Antar Tabel (Eloquent Relationship)
 
 | Relasi | Keterangan |
 |---------|------------|
