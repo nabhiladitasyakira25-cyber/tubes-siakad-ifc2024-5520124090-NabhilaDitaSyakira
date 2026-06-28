@@ -10,7 +10,7 @@
 ## 🌐 Link Hosting
 
 > **Akses aplikasi melalui link berikut:**  
-> 🔗 **[SIAKAD - Sistem Informasi Akademik]**
+> 🔗 https://tubes-siakad-ifc24-nabhila.wuaze.com
 ## 🔑 Akun Login
 ### 👨‍💼 Admin
 - **Email / Username:** `admin@siakad.com`
